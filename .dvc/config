@@ -1,4 +1,7 @@
 [core]
-    remote = myremote
+    remote = s3remote
 ['remote "myremote"']
     url = /Users/jithendraaluri/Desktop/data
+['remote "s3remote"']
+    url = s3://ajdvcbucket
+    region=us-east-1
