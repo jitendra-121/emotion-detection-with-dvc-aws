@@ -9,11 +9,11 @@ stages:
       size: 3449
     params:
       params.yaml:
-        data_ingestion.test_size: 0.2
+        data_ingestion.test_size: 0.3
     outs:
     - path: data/raw
       hash: md5
-      md5: 6d7c9717b531961233cd66af69381384.dir
+      md5: cdbc97ec2b63b571654ff33a9368f91e.dir
       size: 817597
       nfiles: 2
   data_preprocessing:
